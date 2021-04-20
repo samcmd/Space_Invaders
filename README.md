@@ -15,4 +15,5 @@
 2. Run the project (the main call is within graphics.cpp)
 3. A window will appear with the game loaded into to it
 4. Use the arrow keys on your keyboard or your mouse cursor to keep position yourself then press spacebar or left mouse button to shoot at the enemies
-5. When all enemies are killed the barriers will disappear meaning you have won
+5. Enemies must be shot in the center, simply skimming the arm will not count as a kill
+6. When all enemies are killed the barriers will disappear meaning you have won
