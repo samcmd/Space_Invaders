@@ -47,7 +47,7 @@ void initBullet() {
 
 void initStars() {
     for (int i = 0; i < 100; ++i) {
-        stars.push_back(Circle(1, 1, 1, 1, rand() % int(width), -(rand() % int(height)), rand() % 5 - 2));
+        stars.push_back(Circle(1, 1, 1, 1, rand() % int(width), (rand() % int(height)), rand() % 5 - 2));
         stars[i].setColor(white);
     }
 }
